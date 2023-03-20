@@ -13,6 +13,7 @@
 		6E52A9A329C0EA9A00714DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E52A9A229C0EA9A00714DC7 /* Assets.xcassets */; };
 		6E52A9A629C0EA9A00714DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E52A9A429C0EA9A00714DC7 /* LaunchScreen.storyboard */; };
 		6E52A9B129C0F56300714DC7 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E52A9B029C0F56300714DC7 /* WeatherViewController.swift */; };
+		6E5B1A3829C8F556003BDAD9 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5B1A3729C8F556003BDAD9 /* WeatherData.swift */; };
 		6EDAC9FC29C3A30A00855C57 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDAC9FB29C3A30A00855C57 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		6E52A9A529C0EA9A00714DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E52A9A729C0EA9A00714DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E52A9B029C0F56300714DC7 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		6E5B1A3729C8F556003BDAD9 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		6EDAC9FB29C3A30A00855C57 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				6EDAC9FB29C3A30A00855C57 /* WeatherManager.swift */,
+				6E5B1A3729C8F556003BDAD9 /* WeatherData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E52A99A29C0EA9A00714DC7 /* AppDelegate.swift in Sources */,
+				6E5B1A3829C8F556003BDAD9 /* WeatherData.swift in Sources */,
 				6E52A9B129C0F56300714DC7 /* WeatherViewController.swift in Sources */,
 				6EDAC9FC29C3A30A00855C57 /* WeatherManager.swift in Sources */,
 				6E52A99C29C0EA9A00714DC7 /* SceneDelegate.swift in Sources */,
